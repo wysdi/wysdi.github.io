@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
         <h4>Software Developer</h4>
     </div>
     <div class="header--social">
-        <Link to={"https://www.linkedin.com/"}
+        <Link to={"https://www.linkedin.com/in/wysdi"}
             target="blank"
         ><img src={linkedin} alt="Linkedin logo"
         /></Link>
