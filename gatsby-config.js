@@ -34,6 +34,15 @@ module.exports = {
           include: '/src/images/'
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Roboto+Mono\:300,400,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
