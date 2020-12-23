@@ -8,7 +8,7 @@ import github from "../images/github-character.svg";
 const Header = ({ siteTitle }) => (
   <header>
       <h1>Wayan Sudiarta</h1>
-      <p>Software Developer</p>
+      <p>Backend Developer</p>
       {/* <nav>
         <ul>
           <li>About Me</li>

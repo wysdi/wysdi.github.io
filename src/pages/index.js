@@ -1,5 +1,8 @@
 import React from "react"
 
+import kurs from "../images/kurs.png"
+import gowes from "../images/gowes.png"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
@@ -51,15 +54,23 @@ const IndexPage = () => (
         <section>
           <h2><a id="why" href="#why" aria-hidden="true"></a>The Projects:
           </h2>
-         <p>
-         <ul>
-              <li><a>Gowes Site</a></li>
-              <li><a>Gowes Site</a></li>
-              <li><a>Gowes Site</a></li>
-              <li><a>Gowes Site</a></li>
-
-          </ul>
-         </p>
+         <br/>
+           <blockquote>
+             <img src={gowes} alt="" width={'200'} style={{ margin: 'inherit'}}/>
+             <cite>Tech Stack: React, Youtube API</cite>
+             <footer>
+               <cite><a href={'https://wysdi.github.io/gowes/'} target={'_blank'}>Gowes</a></cite>
+             </footer>
+           </blockquote>
+          <br/>
+          <blockquote>
+            <img src={kurs} alt="" width={'200'} style={{ margin: 'inherit'}}/>
+            <cite>Tech Stack: React, Fast Api
+            </cite>
+            <footer>
+              <cite><a href={'https://wysdi.github.io/kurs/'} target={'_blank'}>Kurs</a></cite>
+            </footer>
+          </blockquote>
         </section>
         <br/>
       </article>
