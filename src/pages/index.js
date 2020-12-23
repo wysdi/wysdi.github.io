@@ -6,45 +6,63 @@ import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-      <h1>portofolio</h1>
-      <section id="works">
-          <div className="works--card">
-              <h3>Sample Sites 1</h3>
-              <div className="works--card--screenshot">
-                  <div className="works--card--screenshot--overlay">
-                      <Link className="works--card--screenshot--overlay--code--link" href={''} target="_blank">CODE</Link>
-                      <Link className="works--card--screenshot--overloy-live-link" href="https://keen-nobel-02e821.netlify.com/" target="_blank">LIVE</Link>
-                  </div>
-                  <img src="https://picsum.photos/642/899?random=1" alt="Project image for clof" />
-              </div>
-              <p>Tech Used : Next.js (React), Express, MongoDB</p>
-          </div>
-          <div className="works--card">
-              <h3>Sample Sites 2</h3>
-              <div className="works--card--screenshot">
-                  <div className="works--card--screenshot--overlay">
-                      <Link className="works--card--screenshot--overlay--code--link" href={''} target="_blank">CODE</Link>
-                      <Link className="works--card--screenshot--overloy-live-link" href="https://keen-nobel-02e821.netlify.com/" target="_blank">LIVE</Link>
-                  </div>
-                  <img src="https://picsum.photos/642/899?random=2" alt="Project image for clof" />
-              </div>
-              <p>Tech Used : Vue, Express, MongoDB</p>
+    <SEO title="Homepage" />
+    <article>
+        <section>
+          <h2><a id="inlines" href="#inlines" aria-hidden="true"></a>About
+          </h2>
+          <p><img src="https://avatars0.githubusercontent.com/u/5110305?s=460&u=ea31f2a07d15833fc01f51cee9b7eff6b9f44463&v=4" alt="Surprised cat" width="150"/>
+          Developer from Bali with 6 Years experience with PHP. Build some projects over the years using Symfony for
+          <br/>Content Management System.
+          </p>
+          <p>
+            Currently using Python to playing with Data Analysis and Machine Learning.
+          </p>
+        </section>
+        <section>
+          <h2><a id="wtf" href="#wtf" aria-hidden="true"></a>The Experience:
+          </h2>
+          <dl>
+            <dt>TIX</dt>
+            <dd>
+                <p>Develop and maintain a custom CMS system built for the needs of TIX.<br/>
+                Develop and maintain integrations between TIX CMS and third party systems.<br/>
+                Develop the app using react native</p>
 
-          </div>
-          <div className="works--card">
-              <h3>Sample Sites 3</h3>
-              <div className="works--card--screenshot">
-                  <div className="works--card--screenshot--overlay">
-                      <Link className="works--card--screenshot--overlay--code--link" href={''} target="_blank">CODE</Link>
-                      <Link className="works--card--screenshot--overloy-live-link" href="https://keen-nobel-02e821.netlify.com/" target="_blank">LIVE</Link>
-                  </div>
-                  <img src="https://picsum.photos/642/899?random=3" alt="Project image for clof" />
-              </div>
-              <p>Tech Used : HTML, CSS, Javascript</p>
-          </div>
-         </section>
+            </dd>
+            <dt>Egomedia Bali</dt>
+            <dd>Develop a custom wordpress themes and plugins for client site</dd>
+            <dt>CV. Mertabali</dt>
+            <dd>Working with WebErp to customize the system following the company requirement.</dd>
+          </dl>
+        </section>
+        <section>
+          <h2><a id="usage" href="#usage" aria-hidden="true"></a>The Stack
+          </h2>
+          <dl>
+              <dt>PHP</dt>
+              <dd>Using on Wordpress, Symfony and WebErp Projects</dd>
+              <dt>Javascript</dt>
+              <dd>Using on React and React Native</dd>
+              <dt>Python</dt>
+              <dd>Using on Fast API and Django Framework</dd>
+          </dl>
+        </section>
+        <section>
+          <h2><a id="why" href="#why" aria-hidden="true"></a>The Projects:
+          </h2>
+         <p>
+         <ul>
+              <li><a>Gowes Site</a></li>
+              <li><a>Gowes Site</a></li>
+              <li><a>Gowes Site</a></li>
+              <li><a>Gowes Site</a></li>
 
+          </ul>
+         </p>
+        </section>
+        <br/>
+      </article>
   </Layout>
 )
 

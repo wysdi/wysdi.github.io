@@ -7,23 +7,19 @@ import github from "../images/github-character.svg";
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div className="header--detail-me">
-        <h3>Wayan Sudiarta</h3>
-        <h4>Software Developer</h4>
-    </div>
-    <div class="header--social">
-        <Link to={"https://www.linkedin.com/in/wysdi"}
-            target="blank"
-        ><img src={linkedin} alt="Linkedin logo"
-        /></Link>
-        <Link to="https://github.com/wysdi/" target="_blank"
-        ><img src={github} alt="Github logo"
-        /></Link>
-        <Link href="mailto:zerofroxy@gmail.com"
-        ><img src={mail} alt="Email logo"
-        /></Link>
-    </div>
-</header>
+      <h1>Wayan Sudiarta</h1>
+      <p>Software Developer</p>
+      {/* <nav>
+        <ul>
+          <li>About Me</li>
+          <li><a href="#wtf">Portofolio</a></li>
+          <li><a href="download.html">Skill</a></li>
+          <li><a href="plugins.html">Plugins</a></li>
+          <li><a href="https://github.com/wysdi" target="_blank">GitHub</a></li>
+        
+        </ul>
+      </nav> */}
+    </header>
 )
 
 Header.propTypes = {
