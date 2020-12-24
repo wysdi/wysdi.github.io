@@ -2,6 +2,7 @@ import React from "react"
 
 import kurs from "../images/kurs.png"
 import gowes from "../images/gowes.png"
+import pangan from "../images/pangan.png"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -55,22 +56,52 @@ const IndexPage = () => (
           <h2><a id="why" href="#why" aria-hidden="true"></a>The Projects:
           </h2>
          <br/>
-           <blockquote>
-             <img src={gowes} alt="" width={'200'} style={{ margin: 'inherit'}}/>
-             <cite>Tech Stack: React, Youtube API</cite>
-             <footer>
-               <cite><a href={'https://wysdi.github.io/gowes/'} target={'_blank'}>Gowes</a></cite>
-             </footer>
-           </blockquote>
-          <br/>
-          <blockquote>
-            <img src={kurs} alt="" width={'200'} style={{ margin: 'inherit'}}/>
-            <cite>Tech Stack: React, Fast Api
-            </cite>
-            <footer>
-              <cite><a href={'https://wysdi.github.io/kurs/'} target={'_blank'}>Kurs</a></cite>
-            </footer>
-          </blockquote>
+          <table>
+            <tr>
+              <td align={'center'}>
+                <blockquote>
+                  <img src={gowes} alt="" width={'200'} style={{ margin: 'inherit'}}/>
+                  <br />
+                  <cite>Tech Stack: React, Youtube API</cite>
+                  <footer>
+                    <cite><a href={'https://wysdi.github.io/gowes/'} target={'_blank'}>Gowes</a></cite>
+                  </footer>
+                </blockquote>
+                <br/>
+              </td>
+              <td align={'center'}>
+                <blockquote>
+                  <img src={kurs} alt="" width={'200'} style={{ margin: 'inherit'}}/>
+                  <br />
+                  <cite>Tech Stack: React, FastApi, Python Scrapping
+                  </cite>
+                  <footer>
+                    <cite><a href={'https://wysdi.github.io/kurs/'} target={'_blank'}>Kurs</a></cite>
+                  </footer>
+                </blockquote>
+              </td>
+
+            </tr>
+            <tr>
+              <td align={'center'}>
+                <blockquote>
+                  <br/>
+                  <img src={pangan} alt="" width={'200'} style={{ margin: 'inherit'}}/>
+                  <br />
+                  <cite>Tech Stack: React, Python Scrapping, FastApi</cite>
+                  <footer>
+                    <cite><a href={'https://wysdi.github.io/info-pangan/'} target={'_blank'}>Info Pangan</a></cite>
+                  </footer>
+                </blockquote>
+                <br/>
+              </td>
+              <td>
+
+              </td>
+
+            </tr>
+          </table>
+
         </section>
         <br/>
       </article>
