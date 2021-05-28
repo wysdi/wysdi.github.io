@@ -89,18 +89,23 @@ const Sidebar = ({ }) => (
           <progress id="js-skill" max="100" value="80"></progress>
         </li>
         <li>
-          <label htmlFor="react-skill">React</label>
-          <progress id="react-skill" max="100" value="85"></progress>
+          <div className="mt-2 text-xl font-semibold">Frameworks</div>
+          <p className="leading-8">
+            <span className="rounded-xl bg-green-500 px-3">Wordpress</span>
+            <span className="rounded-xl bg-yellow-300 px-3">Symfony</span>
+            <span className="rounded-xl bg-yellow-300 px-3">Django</span><br/>
+            <span className="rounded-xl bg-blue-300 px-3">React</span>
+            <span className="rounded-xl bg-red-400 px-3">RNative</span>
+            <span className="rounded-xl bg-blue-300 px-3">Bootstrap</span><br/>
+            <span className="rounded-xl bg-gray-300 px-3">AlpineJs</span>
+
+          </p>
         </li>
         <li>
-          <label htmlFor="react-skill">React Native</label>
-          <progress id="react-skill" max="100" value="80"></progress>
-        </li>
-        <li>
-          <div>Infrastructure / Hosting / DB</div>
+          <div className="mt-4 text-xl font-semibold">Infrastructure / Hosting / DB</div>
           <p className="leading-8">
             <span className="rounded-xl bg-gray-300 px-3">Mysql</span>
-            <span className="rounded-xl bg-gray-300 px-3">Google Cloud</span>
+            <span className="rounded-xl bg-gray-300 px-3 rounded">Google Cloud</span>
             <span className="rounded-xl bg-gray-300 px-3">Heroku</span>
             <span className="rounded-xl bg-gray-300 px-3">Netlify</span>
             <span className="rounded-xl bg-gray-300 px-3">Vercel</span>
