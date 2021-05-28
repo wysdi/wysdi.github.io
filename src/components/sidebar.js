@@ -69,7 +69,7 @@ const Sidebar = ({ }) => (
       {/*</div>*/}
       <div className="flex items-center my-3">
         <img src={globe} className="inline w-6 mr-4" alt="Globe icon"/>
-        <a href="#" target="_blank" rel="noopener noreferrer">Portfolio</a>
+        <a href="/playground/" target="_blank" rel="noopener noreferrer">Playground</a>
       </div>
     </div>
 
