@@ -36,8 +36,12 @@ const IndexPage = () => (
               Task:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-                Develop an website using custom themes in Wordpress.
-                Build Custom plugins for advanced featured in Wordpress
+              Develop and maintain a custom CMS system built for the needs of TIX.<br/>
+              Develop and maintain integrations between TIX CMS and third party systems.<br/>
+              Develop the Mobile app using react native.<br/>
+              Develop api platform using Django.<br/>
+              Develop scraping tools using Python.
+
              </div>
           </section>
 
@@ -71,11 +75,8 @@ const IndexPage = () => (
               Task:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              Develop and maintain a custom CMS system built for the needs of TIX.
-              Develop and maintain integrations between TIX CMS and third party systems.
-              Develop the Mobile app using react native.
-              Develop api platform using Django.
-              Develop scraping tools using Python.
+              Develop an website using custom themes in Wordpress.<br/>
+              Build Custom plugins for advanced featured in Wordpress
             </div>
           </section>
 
@@ -86,7 +87,7 @@ const IndexPage = () => (
             <div className="lg:inline-block lg:w-8/12 w-full">
               <span className="rounded-xl bg-gray-300 px-3">PHP</span>
               <span className="rounded-xl bg-gray-300 px-3">CSS</span>
-              <span className="rounded-xl bg-gray-300 px-3">Wordpress</span>
+              <span className="rounded-xl bg-gray-300 px-3">Wordpress</span><br/>
               <span className="rounded-xl bg-gray-300 px-3">Python</span>
               <span className="rounded-xl bg-gray-300 px-3">Git</span>
               <span className="rounded-xl bg-gray-300 px-3">Bitbucket</span>
