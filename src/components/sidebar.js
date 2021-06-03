@@ -117,7 +117,7 @@ const Sidebar = ({ }) => (
 
     <div className="font-light text-lg px-2 mb-12">
       <h2 className="text-xl font-semibold mb-4">Education</h2>
-      <h3 className="font-semibold">BSc Computer System</h3>
+      <h3 className="font-semibold">Sistem Komputer (S.Kom)</h3>
       <p>2006 - 2009 Stikom Bali</p>
     </div>
 
