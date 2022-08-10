@@ -11,11 +11,7 @@ const IndexPage = () => (
       <div id="profile" className="prose">
         <h2 className="section-headline">Profile</h2>
         <p>
-        Developer from Bali with 7 Years experience with PHP. Build some projects over the years using Symfony for
-        Content Management System. Starting integrate custom CMS into Salesforce
-      </p>
-      <p>
-        Interesting with Data Analysis and Machine Learning.
+          I am a qualified and professional web developer with five years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail.
       </p>
       </div>
       <hr className="mt-8 mb-12"/>
@@ -23,7 +19,7 @@ const IndexPage = () => (
         <h2 className="section-headline">Experience</h2>
         <div>
           <h3>Tix Co</h3>
-          <section className="mb-6">
+          <section className="mb-3">
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
               2014 - Presents
             </div>
@@ -36,11 +32,9 @@ const IndexPage = () => (
               Task:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              Develop and maintain a custom CMS system built for the needs of TIX.<br/>
-              Develop and maintain integrations between TIX CMS and third party systems.<br/>
-              Develop the Mobile app using react native.<br/>
-              Develop api platform using Django.<br/>
-              Develop scraping tools using Python.
+              Develop and Maintain a custom CMS system built for the needs of TIX<br/>
+              Develop and Maintain integrations between TIX CMS and third party systems<br/>
+              Develop the Mobile App & API Platform Service
 
              </div>
           </section>
@@ -62,7 +56,7 @@ const IndexPage = () => (
         </div>
         <div>
           <h3>Egomedia Bali</h3>
-          <section className="mb-6">
+          <section className="mb-3">
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
               2011 -2014
             </div>
@@ -75,8 +69,9 @@ const IndexPage = () => (
               Task:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              Develop an website using custom themes in Wordpress.<br/>
-              Build Custom plugins for advanced featured in Wordpress
+              Develop a custom Wordpress themes for several client<br/>
+              BDevelop custom plugin to build some functional features<br/>
+              Build custom mail client using for a community
             </div>
           </section>
 

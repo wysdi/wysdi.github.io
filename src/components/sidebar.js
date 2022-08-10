@@ -10,10 +10,10 @@ import globe from "../styles/assets/globe-outline.svg";
 import avatar from "../images/avatar.jpeg"
 
 const Sidebar = ({ }) => (
-  <div id="sidebar" className="w-full sm:max-w-sm p-8 bg-gradient-to-b from-blue-300 via-green-300 to-white">
+  <div id="sidebar" className="w-full sm:max-w-sm p-8 bg-gradient-to-b from-green-300  to-white">
     <div className="px-2 mb-12">
-      <img src={avatar} alt="Profile Picture"
-           className="rounded-full w-48 mx-auto mb-2"/>
+      {/*<img src={avatar} alt="Profile Picture"*/}
+      {/*     className="rounded-full w-48 mx-auto mb-2"/>*/}
       <h1 className="text-center text-3xl font-semibold mb-2">Wayan Sudiarta</h1>
       <h2 className="text-center text-xl font-light">Fullstack Developer</h2>
     </div>
@@ -22,7 +22,7 @@ const Sidebar = ({ }) => (
       <h2 className="text-xl font-semibold mb-4">Contact</h2>
       <div className="flex items-center my-3">
         <img src={mail} className="inline w-6 mr-4" alt="Mail icon"/>
-        <a href="mailto:zerofroxy@gmail.com">zerofroxy@gmail.com</a>
+        <a href="mailto:zerofroxy@gmail.com">wynsudiarta87@gmail.com</a>
       </div>
       {/*<div className="flex items-center my-3">*/}
       {/*  <img src={phone} className="inline w-6 mr-4" alt="Phone icon"/>*/}
