@@ -21,10 +21,10 @@ const IndexPage = () => (
           <h3>Tix Co</h3>
           <section className="mb-3">
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              2014 - Presents
+              Jul 2022 - Jan 2023
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              Developer
+              Technical Lead
             </div>
           </section>
           <section className="mb-6">
@@ -32,25 +32,66 @@ const IndexPage = () => (
               Task:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              Develop and Maintain a custom CMS system built for the needs of TIX<br/>
-              Develop and Maintain integrations between TIX CMS and third party systems<br/>
-              Develop the Mobile App & API Platform Service
+              Planning, develop, test, deploy, maintain and improve software.<br/>
+              Manage the standard code versioning<br/>
+              Manage individual project priorities, deadlines and deliverables.<br/>
+              Mentor other team members.<br/>
+            </div>
+          </section>
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Skills:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <span className="rounded-xl bg-gray-300 px-3">Agile Methodologies</span>
+              <span className="rounded-xl bg-gray-300 px-3">Scrum</span>
+              <span className="rounded-xl bg-gray-300 px-3">Google Cloud Platform (GCP)</span>
+              <span className="rounded-xl bg-gray-300 px-3">Salesforce Marketing Cloud (SFMC)</span>
+              <span className="rounded-xl bg-gray-300 px-3">JIRA</span>
+            </div>
+          </section>
+        </div>
+        <div>
+          <h3>Tix Co</h3>
+          <section className="mb-3">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Apr 2014 - Jul 2022
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              Full Stack Developer
+            </div>
+          </section>
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Task:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              Develop and maintain a custom CMS system built for the needs of TIX.<br/>
+              Develop and maintain integrations between TIX CMS and third party systems.<br/>
+              Develop the Tix App<br/>
+              Develop the Tix Connect Platform Services<br/>
 
-             </div>
+            </div>
           </section>
 
           <section className="mb-6">
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              Tools:
+              Skills:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              <span className="rounded-xl bg-gray-300 px-3">PHP</span>
-              <span className="rounded-xl bg-gray-300 px-3">Python</span>
-              <span className="rounded-xl bg-gray-300 px-3">React</span>
+              <span className="rounded-xl bg-gray-300 px-3">LESS (Stylesheet Language)</span>
+              <span className="rounded-xl bg-gray-300 px-3">Bulma (CSS Framework)</span>
+              <span className="rounded-xl bg-gray-300 px-3">Tailwind CSS</span>
+              <span className="rounded-xl bg-gray-300 px-3">ApiPlatform</span>
+              <span className="rounded-xl bg-gray-300 px-3">FastAPI</span>
+              <span className="rounded-xl bg-gray-300 px-3">Doctrine (PHP)</span>
+              <span className="rounded-xl bg-gray-300 px-3">Symfony Framework</span>
               <span className="rounded-xl bg-gray-300 px-3">React Native</span>
+              <span className="rounded-xl bg-gray-300 px-3">React.js</span>
+              <span className="rounded-xl bg-gray-300 px-3">MySQL</span>
               <span className="rounded-xl bg-gray-300 px-3">Git</span>
-              <span className="rounded-xl bg-gray-300 px-3">Bitbucket</span>
-              <span className="rounded-xl bg-gray-300 px-3">Jira</span>
+              <span className="rounded-xl bg-gray-300 px-3">Python</span>
+              <span className="rounded-xl bg-gray-300 px-3">Django</span>
             </div>
           </section>
         </div>
@@ -70,7 +111,7 @@ const IndexPage = () => (
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               Develop a custom Wordpress themes for several client<br/>
-              BDevelop custom plugin to build some functional features<br/>
+              Develop custom plugin to build some functional features<br/>
               Build custom mail client using for a community
             </div>
           </section>
