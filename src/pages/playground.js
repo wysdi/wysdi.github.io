@@ -15,14 +15,14 @@ const IndexPage = () => (
           <section className="mb-6">
               Build custom api using Fast Api Framework
           </section>
-          {/*<section className="mb-6">*/}
-          {/*  <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">*/}
-          {/*    Deployed to:*/}
-          {/*  </div>*/}
-          {/*  <div className="lg:inline-block lg:w-8/12 w-full">*/}
-          {/*    <a href="https://wysdi-fastapi.vercel.app" target="_blank" rel="noopener noreferrer">wysdi-fastapi.vercel.app</a>*/}
-          {/*  </div>*/}
-          {/*</section>*/}
+          <section>
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Deployed to:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <a href="https://wysdi-fastapi.vercel.app" target="_blank" rel="noopener noreferrer">wysdi-fastapi.vercel.app</a>
+            </div>
+          </section>
           <section className="mb-6">
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
               Code on:
@@ -102,6 +102,7 @@ const IndexPage = () => (
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               <span className="rounded-xl bg-blue-300 px-3 mr-4">Alpine Js</span>
+              <span className="rounded-xl bg-blue-300 px-3 mr-4">Node Js</span><br/>
               <span className="rounded-xl bg-blue-300 px-3 mr-4">Handlebars</span>
               <span className="rounded-xl bg-blue-300 px-3 mr-4">Express</span><br/>
               <span className="rounded-xl bg-blue-300 px-3 mr-4">Lightning Design System</span>
@@ -179,14 +180,14 @@ const IndexPage = () => (
           <section className="mb-6">
             Fetch video content from youtube channel and show it on React App
           </section>
-          {/*<section className="mb-6">*/}
-          {/*  <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">*/}
-          {/*    Deployed to:*/}
-          {/*  </div>*/}
-          {/*  <div className="lg:inline-block lg:w-8/12 w-full">*/}
-          {/*    <a href="https://wysdi.github.io/gowes" target="_blank" rel="noopener noreferrer">wysdi.github.io/gowes</a>*/}
-          {/*  </div>*/}
-          {/*</section>*/}
+          <section>
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Deployed to:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <a href="https://wysdi.github.io/gowes" target="_blank" rel="noopener noreferrer">wysdi.github.io/gowes</a>
+            </div>
+          </section>
           <section className="mb-6">
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
               Code on:

@@ -44,8 +44,8 @@ const IndexPage = () => (
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               <span className="rounded-xl bg-gray-300 px-3">Agile Methodologies</span>
-              <span className="rounded-xl bg-gray-300 px-3">Scrum</span>
-              <span className="rounded-xl bg-gray-300 px-3">Google Cloud Platform (GCP)</span>
+              <span className="rounded-xl bg-gray-300 px-3">Scrum</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">Google Cloud Platform (GCP)</span><br/>
               <span className="rounded-xl bg-gray-300 px-3">Salesforce Marketing Cloud (SFMC)</span>
               <span className="rounded-xl bg-gray-300 px-3">JIRA</span>
             </div>
@@ -79,28 +79,27 @@ const IndexPage = () => (
               Skills:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              <span className="rounded-xl bg-gray-300 px-3">LESS (Stylesheet Language)</span>
-              <span className="rounded-xl bg-gray-300 px-3">Bulma (CSS Framework)</span>
-              <span className="rounded-xl bg-gray-300 px-3">Tailwind CSS</span>
-              <span className="rounded-xl bg-gray-300 px-3">ApiPlatform</span>
-              <span className="rounded-xl bg-gray-300 px-3">FastAPI</span>
-              <span className="rounded-xl bg-gray-300 px-3">Doctrine (PHP)</span>
-              <span className="rounded-xl bg-gray-300 px-3">Symfony Framework</span>
-              <span className="rounded-xl bg-gray-300 px-3">React Native</span>
               <span className="rounded-xl bg-gray-300 px-3">React.js</span>
               <span className="rounded-xl bg-gray-300 px-3">MySQL</span>
               <span className="rounded-xl bg-gray-300 px-3">Git</span>
               <span className="rounded-xl bg-gray-300 px-3">Python</span>
-              <span className="rounded-xl bg-gray-300 px-3">Django</span>
+              <span className="rounded-xl bg-gray-300 px-3">Django</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">LESS (Css Language)</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">Bulma (CSS Framework)</span>
+              <span className="rounded-xl bg-gray-300 px-3">Tailwind CSS</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">ApiPlatform</span>
+              <span className="rounded-xl bg-gray-300 px-3">FastAPI</span>
+              <span className="rounded-xl bg-gray-300 px-3">Doctrine (PHP)</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">Symfony Framework</span>
+              <span className="rounded-xl bg-gray-300 px-3">React Native</span><br/>
+
             </div>
           </section>
         </div>
         <div>
           <h3>Egomedia Bali</h3>
           <section className="mb-3">
-            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              2011 -2014
-            </div>
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">Sep 2011 - Apr 2014</div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               Web  Developer
             </div>
@@ -122,9 +121,10 @@ const IndexPage = () => (
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               <span className="rounded-xl bg-gray-300 px-3">PHP</span>
+              <span className="rounded-xl bg-gray-300 px-3">Wordpress</span>
               <span className="rounded-xl bg-gray-300 px-3">CSS</span>
-              <span className="rounded-xl bg-gray-300 px-3">Wordpress</span><br/>
               <span className="rounded-xl bg-gray-300 px-3">Python</span>
+              <span className="rounded-xl bg-gray-300 px-3">Django</span><br/>
               <span className="rounded-xl bg-gray-300 px-3">Git</span>
               <span className="rounded-xl bg-gray-300 px-3">Bitbucket</span>
             </div>
