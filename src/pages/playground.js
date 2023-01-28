@@ -11,6 +11,38 @@ const IndexPage = () => (
       <div id="projects" className="prose">
         <h2 className="section-headline">Playground</h2>
         <div className="mb-16">
+          <h3 id="chrisko-headline">Retail Shop</h3>
+          <section className="mb-6">
+            Build custom shop using react powered by Airtable through FastApi
+          </section>
+          <section>
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Deployed to:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <a href="https://rsvina.vercel.app" target="_blank" rel="noopener noreferrer">rsvina.vercel.app</a>
+            </div>
+          </section>
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Code on:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <a href="https://github.com/wysdi/react-shop" target="_blank"
+                 rel="noopener noreferrer">wysdi/react-shop</a>
+            </div>
+          </section>
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Built with:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <span className="rounded-xl bg-blue-300 px-3 mr-4">React</span>
+              <span className="rounded-xl bg-blue-300 px-3">Fast Api</span>
+            </div>
+          </section>
+        </div>
+        <div className="mb-16">
           <h3 id="chrisko-headline">Fast Api</h3>
           <section className="mb-6">
               Build custom api using Fast Api Framework
@@ -20,7 +52,7 @@ const IndexPage = () => (
               Deployed to:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              <a href="https://wysdi-fastapi.vercel.app" target="_blank" rel="noopener noreferrer">wysdi-fastapi.vercel.app</a>
+              <a href="https://wysdi-fastapi.vercel.app/docs" target="_blank" rel="noopener noreferrer">wysdi-fastapi.vercel.app</a>
             </div>
           </section>
           <section className="mb-6">
@@ -29,7 +61,7 @@ const IndexPage = () => (
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               <a href="https://github.com/wysdi/fastapi-vercel" target="_blank"
-                 rel="noopener noreferrer">Wysdi/fastapi-vercel</a>
+                 rel="noopener noreferrer">wysdi/fastapi-vercel</a>
             </div>
           </section>
           <section className="mb-6">
@@ -93,7 +125,7 @@ const IndexPage = () => (
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               <a href="https://github.com/wysdi/salesforce-custom-block" target="_blank"
-                 rel="noopener noreferrer">Wysdi/salesforce-custom-block</a>
+                 rel="noopener noreferrer">wysdi/salesforce-custom-block</a>
             </div>
           </section>
           <section className="mb-6">
@@ -128,7 +160,7 @@ const IndexPage = () => (
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               <a href="https://github.com/wysdi/python-beam" target="_blank"
-                 rel="noopener noreferrer">Wysdi/python-beam</a>
+                 rel="noopener noreferrer">wysdi/python-beam</a>
             </div>
           </section>
           <section className="mb-6">
@@ -160,7 +192,7 @@ const IndexPage = () => (
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               <a href="https://github.com/wysdi/scrapy" target="_blank"
-                 rel="noopener noreferrer">Wysdi/scrapy</a>
+                 rel="noopener noreferrer">wysdi/scrapy</a>
             </div>
           </section>
           <section className="mb-6">
@@ -194,7 +226,7 @@ const IndexPage = () => (
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               <a href="https://github.com/wysdi/gowes" target="_blank"
-                 rel="noopener noreferrer">Wysdi/gowes</a>
+                 rel="noopener noreferrer">wysdi/gowes</a>
             </div>
           </section>
           <section className="mb-6">
