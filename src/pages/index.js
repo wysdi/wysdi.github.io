@@ -11,8 +11,8 @@ const IndexPage = () => (
       <div id="profile" className="prose">
         <h2 className="section-headline">Profile</h2>
         <p>
-          I am a qualified and professional web developer with five years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail.
-      </p>
+          I am a qualified and professional software  developer with more than 8 years of experience in web development, Mobile App and data processing. Strong creative and analytical skills. Team player with an eye for detail.
+        </p>
       </div>
       <hr className="mt-8 mb-12"/>
       <div id="experience" className="prose">
@@ -127,6 +127,34 @@ const IndexPage = () => (
               <span className="rounded-xl bg-gray-300 px-3">Django</span><br/>
               <span className="rounded-xl bg-gray-300 px-3">Git</span>
               <span className="rounded-xl bg-gray-300 px-3">Bitbucket</span>
+            </div>
+          </section>
+        </div>
+        <hr className="mt-8 mb-12"/>
+        <div>
+          <h3>CV. Mertabali</h3>
+          <section className="mb-3">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">Nov 2009 - Jan 2010</div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              PHP Programmer
+            </div>
+          </section>
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Task:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              Develop and Maintain the WebERP
+            </div>
+          </section>
+
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Tools:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <span className="rounded-xl bg-gray-300 px-3">PHP</span>
+              <span className="rounded-xl bg-gray-300 px-3">WebERP</span>
             </div>
           </section>
         </div>

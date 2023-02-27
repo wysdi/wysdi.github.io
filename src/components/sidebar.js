@@ -15,7 +15,7 @@ const Sidebar = ({ }) => (
       {/*<img src={avatar} alt="Profile Picture"*/}
       {/*     className="rounded-full w-48 mx-auto mb-2"/>*/}
       <h1 className="text-center text-3xl font-semibold mb-2">Wayan Sudiarta</h1>
-      <h2 className="text-center text-xl font-light">Fullstack Developer</h2>
+      <h2 className="text-center text-xl font-light">Software Engineer</h2>
     </div>
 
     <div className="font-light text-lg px-2 mb-12">
