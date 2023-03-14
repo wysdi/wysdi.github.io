@@ -27,10 +27,8 @@ const IndexPage = () => (
             </div>
           </section>
           <section className="mb-6">
-            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              Task:
-            </div>
-            <div className="lg:inline-block lg:w-8/12 w-full">
+        
+            <div className="lg:inline-block lg:w-12/12 w-full">
               <ul role="list">
                 <li>
                   Designed, developed, tested, deployed, maintained and improved high-quality software solutions, ensuring optimal performance and functionality.
@@ -75,10 +73,8 @@ const IndexPage = () => (
             </div>
           </section>
           <section className="mb-6">
-            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              Task:
-            </div>
-            <div className="lg:inline-block lg:w-8/12 w-full">
+   
+            <div className="lg:inline-block lg:w-12/12 w-full">
             <ul role="list">
                 <li>
                 Developed and maintained a custom CMS system tailored to TIX's unique needs, ensuring robust functionality and optimal user experience.
@@ -130,10 +126,8 @@ const IndexPage = () => (
             </div>
           </section>
           <section className="mb-6">
-            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              Task:
-            </div>
-            <div className="lg:inline-block lg:w-8/12 w-full">
+          <div className="lg:inline-block lg:w-12/12 w-full">
+
             <ul role="list">
                 <li>
                 Designed and developed custom Wordpress themes for multiple clients, ensuring high-quality design and functionality.
@@ -171,10 +165,8 @@ const IndexPage = () => (
             </div>
           </section>
           <section className="mb-6">
-            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              Task:
-            </div>
-            <div className="lg:inline-block lg:w-8/12 w-full">
+          <div className="lg:inline-block lg:w-12/12 w-full">
+
             <ul role="list">
                 <li>
                 Developed and maintained the company's system using WebERP, ensuring optimal performance and functionality.
