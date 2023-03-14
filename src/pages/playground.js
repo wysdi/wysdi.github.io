@@ -11,9 +11,71 @@ const IndexPage = () => (
       <div id="projects" className="prose">
         <h2 className="section-headline">Playground</h2>
         <div className="mb-16">
+          <h3 id="chrisko-headline">Blog Rest API</h3>
+          <section className="mb-6">
+          Create a robust REST API application for managing blogs with role-based access control, ensuring secure and efficient content management.        </section>
+          {/* <section>
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Deployed to:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <a href="https://rsvina.vercel.app" target="_blank" rel="noopener noreferrer">rsvina.vercel.app</a>
+            </div>
+          </section> */}
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Code on:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <a href="https://github.com/wysdi/blogs-rest-api" target="_blank"
+                 rel="noopener noreferrer">wysdi/blogs-rest-api</a>
+            </div>
+          </section>
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Built with:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <span className="rounded-xl bg-blue-300 px-3">Laravel</span>
+              <span className="rounded-xl bg-blue-300 px-3">PHPUnit</span>
+
+            </div>
+          </section>
+        </div>
+        <div className="mb-16">
+          <h3 id="chrisko-headline">PasteBin Clone</h3>
+          <section className="mb-6">
+          Introducing PasteBinAPI, a RESTful application that replicates the functionality of PasteBin website.          </section>
+          {/* <section>
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Deployed to:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <a href="https://rsvina.vercel.app" target="_blank" rel="noopener noreferrer">rsvina.vercel.app</a>
+            </div>
+          </section> */}
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Code on:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <a href="https://github.com/wysdi/FastApi-PasteBin" target="_blank"
+                 rel="noopener noreferrer">wysdi/FastApi-PasteBin</a>
+            </div>
+          </section>
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Built with:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <span className="rounded-xl bg-blue-300 px-3">Fast Api</span>
+            </div>
+          </section>
+        </div>
+        <div className="mb-16">
           <h3 id="chrisko-headline">Retail Shop</h3>
           <section className="mb-6">
-            Build custom shop using react powered by Airtable through FastApi
+          Create a personalized e-commerce platform with ease using React and FastAPI, seamlessly integrated with Airtable.
           </section>
           <section>
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
@@ -45,8 +107,7 @@ const IndexPage = () => (
         <div className="mb-16">
           <h3 id="chrisko-headline">Fast Api</h3>
           <section className="mb-6">
-              Build custom api using Fast Api Framework
-          </section>
+          Effortlessly develop a bespoke API for personal project with the FastAPI framework.          </section>
           <section>
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
               Deployed to:
@@ -77,8 +138,7 @@ const IndexPage = () => (
         <div className="mb-16">
           <h3 id="chrisko-headline">Telegram Bot</h3>
           <section className="mb-6">
-            Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things
-          </section>
+          Craft a Telegram bot with Python and empower your messaging experience with intelligent automation and custom commands.          </section>
           {/*<section className="mb-6">*/}
           {/*  <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">*/}
           {/*    Deployed to:*/}
@@ -109,7 +169,7 @@ const IndexPage = () => (
         <div className="mb-16">
           <h3 id="chrisko-headline">Salesforce Custom Block</h3>
           <section className="mb-6">
-            Sample Salesforce Marketing Cloud Content Builder Block using the blocksdk.
+Experience the full potential of Salesforce Marketing Cloud Content Builder with a sample Content Block built using the Block SDK.
           </section>
           {/*<section className="mb-6">*/}
           {/*  <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">*/}
@@ -144,8 +204,7 @@ const IndexPage = () => (
         <div className="mb-16">
           <h3 id="chrisko-headline">CSV Extractor</h3>
           <section className="mb-6">
-            This pipeline will extract the csv lines from text files
-          </section>
+          This pipeline is designed to efficiently extract CSV lines from text files.          </section>
           {/*<section className="mb-6">*/}
           {/*  <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">*/}
           {/*    Deployed to:*/}
@@ -173,40 +232,7 @@ const IndexPage = () => (
             </div>
           </section>
         </div>
-        <div className="mb-16">
-          <h3 id="chrisko-headline">Course Scrapper</h3>
-          <section className="mb-6">
-            Scrapping the course item from buildwithangga, codepolitan and dicoding using scrapy
-          </section>
-          {/*<section className="mb-6">*/}
-          {/*  <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">*/}
-          {/*    Deployed to:*/}
-          {/*  </div>*/}
-          {/*  <div className="lg:inline-block lg:w-8/12 w-full">*/}
-          {/*    <a href="https://wysdi.github.io/gowes" target="_blank" rel="noopener noreferrer">wysdi.github.io/gowes</a>*/}
-          {/*  </div>*/}
-          {/*</section>*/}
-          <section className="mb-6">
-            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              Code on:
-            </div>
-            <div className="lg:inline-block lg:w-8/12 w-full">
-              <a href="https://github.com/wysdi/scrapy" target="_blank"
-                 rel="noopener noreferrer">wysdi/scrapy</a>
-            </div>
-          </section>
-          <section className="mb-6">
-            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              Built with:
-            </div>
-            <div className="lg:inline-block lg:w-8/12 w-full">
-              <span className="rounded-xl bg-blue-300 px-3 mr-4">Python</span>
-              <span className="rounded-xl bg-blue-300 px-3 mr-4">Scrapy</span>
-              <span className="rounded-xl bg-blue-300 px-3 mr-4">Selenium</span>
-              <span className="rounded-xl bg-blue-300 px-3">WebDriver</span>
-            </div>
-          </section>
-        </div>
+    
         <div className="mb-16">
           <h3 id="chrisko-headline">Gowes (Personal Sites)</h3>
           <section className="mb-6">

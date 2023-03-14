@@ -10,9 +10,8 @@ const IndexPage = () => (
     <div className="content w-full p-12">
       <div id="profile" className="prose">
         <h2 className="section-headline">Profile</h2>
-        <p>
-          I am a qualified and professional software  developer with more than 8 years of experience in web development, Mobile App and data processing. Strong creative and analytical skills. Team player with an eye for detail.
-        </p>
+        <p>As a highly skilled and qualified software developer, I bring over 8 years of experience in web development, mobile app development, and data processing. My proven track record of delivering high-quality solutions in these areas is a testament to my technical expertise and ability to solve complex problems. 
+</p>
       </div>
       <hr className="mt-8 mb-12"/>
       <div id="experience" className="prose">
@@ -32,10 +31,24 @@ const IndexPage = () => (
               Task:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              Planning, develop, test, deploy, maintain and improve software.<br/>
-              Manage the standard code versioning<br/>
-              Manage individual project priorities, deadlines and deliverables.<br/>
-              Mentor other team members.<br/>
+              <ul role="list">
+                <li>
+                  Designed, developed, tested, deployed, maintained and improved high-quality software solutions, ensuring optimal performance and functionality.
+                </li>
+                <li>
+                  Conducted research to define project specifications and authored technical requirements to guide sprint planning.
+                </li>
+                <li>
+                  Prioritized individual project timelines and deliverables to ensure timely completion of tasks and successful project outcomes.
+                </li>
+                <li>
+                  Generated valuable business insights by building and processing reports using BQ.
+                </li>
+                <li>
+                  Mentored and provided guidance to other team members to support their professional growth
+                </li>
+              </ul>
+
             </div>
           </section>
           <section className="mb-6">
@@ -66,11 +79,23 @@ const IndexPage = () => (
               Task:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              Develop and maintain a custom CMS system built for the needs of TIX.<br/>
-              Develop and maintain integrations between TIX CMS and third party systems.<br/>
-              Develop the Tix App<br/>
-              Develop the Tix Connect Platform Services<br/>
-
+            <ul role="list">
+                <li>
+                Developed and maintained a custom CMS system tailored to TIX's unique needs, ensuring robust functionality and optimal user experience.
+                </li>
+                <li>
+                Built integrations between TIX CMS and third-party systems, streamlining workflows and improving efficiency.
+                </li>
+                <li>
+                Designed and developed a mobile app and API platform service, expanding TIX's reach and accessibility.
+                </li>
+                <li>
+                Created a custom calendar tool to manage EDM newsletter schedules, improving organizational efficiency.
+                </li>
+                <li>
+                Developed a newsgen builder to customize EDM designs, delivering tailored content and enhancing engagement.
+                </li>
+              </ul>
             </div>
           </section>
 
@@ -109,9 +134,15 @@ const IndexPage = () => (
               Task:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              Develop a custom Wordpress themes for several client<br/>
-              Develop custom plugin to build some functional features<br/>
-              Build custom mail client using for a community
+            <ul role="list">
+                <li>
+                Designed and developed custom Wordpress themes for multiple clients, ensuring high-quality design and functionality.
+                </li>
+                <li>
+                Built custom plugins to implement advanced functionality and enhance user experience.                </li>
+                <li>
+                Created a custom mail client for a community, streamlining communication processes and improving user engagement.                </li>
+              </ul>
             </div>
           </section>
 
@@ -144,7 +175,11 @@ const IndexPage = () => (
               Task:
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              Develop and Maintain the WebERP
+            <ul role="list">
+                <li>
+                Developed and maintained the company's system using WebERP, ensuring optimal performance and functionality.
+                </li>
+                </ul>
             </div>
           </section>
 

@@ -10,7 +10,7 @@ import globe from "../styles/assets/globe-outline.svg";
 import avatar from "../images/avatar.jpeg"
 
 const Sidebar = ({ }) => (
-  <div id="sidebar" className="w-full sm:max-w-sm p-8 bg-gradient-to-b from-green-300  to-white">
+  <div id="sidebar" className="w-full sm:max-w-sm p-8 bg-gradient-to-b from-green-400  to-blue-500">
     <div className="px-2 mb-12">
       {/*<img src={avatar} alt="Profile Picture"*/}
       {/*     className="rounded-full w-48 mx-auto mb-2"/>*/}
