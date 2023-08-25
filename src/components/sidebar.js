@@ -10,7 +10,7 @@ import globe from "../styles/assets/globe-outline.svg";
 import avatar from "../images/avatar.jpeg"
 
 const Sidebar = ({ }) => (
-  <div id="sidebar" className="w-full sm:max-w-sm p-8 bg-gradient-to-b from-green-400  to-blue-500">
+  <div id="sidebar" className="w-full sm:max-w-sm p-8 bg-gradient-to-b from-gray-200  to-white-500">
     <div className="px-2 mb-12">
       {/*<img src={avatar} alt="Profile Picture"*/}
       {/*     className="rounded-full w-48 mx-auto mb-2"/>*/}
@@ -21,7 +21,7 @@ const Sidebar = ({ }) => (
     <div className="font-light text-lg px-2 mb-12">
       <h2 className="text-xl font-semibold mb-4">Contact</h2>
       <div className="flex items-center my-3">
-        <img src={mail} className="inline w-6 mr-4" alt="Mail icon"/>
+        <img src={mail} className="inline w-6 mr-4" alt="Mail icon" />
         <a href="mailto:zerofroxy@gmail.com">wynsudiarta87@gmail.com</a>
       </div>
       {/*<div className="flex items-center my-3">*/}
@@ -29,7 +29,7 @@ const Sidebar = ({ }) => (
       {/*  <a href="tel:">0123 456 789</a>*/}
       {/*</div>*/}
       <div className="flex items-center my-3">
-        <img src={home} className="inline w-6 pb-1 mr-4" alt="House icon"/>
+        <img src={home} className="inline w-6 pb-1 mr-4" alt="House icon" />
         <div>
           <p>Badung, Bali</p>
         </div>
@@ -51,16 +51,16 @@ const Sidebar = ({ }) => (
     <div className="font-light text-lg px-2 mb-12">
       <h2 className="text-xl font-semibold mb-4">On the Web</h2>
       <div className="flex items-center my-3">
-        <img src={github} className="inline w-6 mr-4" alt="GitHub Logo"/>
+        <img src={github} className="inline w-6 mr-4" alt="GitHub Logo" />
         <a href="https://github.com/wysdi" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
 
       <div className="flex items-center my-3">
-        <img src={linkedin} className="inline w-6 mr-4" alt="LinkedIn Logo"/>
+        <img src={linkedin} className="inline w-6 mr-4" alt="LinkedIn Logo" />
         <a href="https://www.linkedin.com/in/wysdi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
       <div className="flex items-center my-3">
-        <img src={twitter} className="inline w-6 mr-4" alt="Twitter Logo"/>
+        <img src={twitter} className="inline w-6 mr-4" alt="Twitter Logo" />
         <a href="https://twitter.com/wysdi_" target="_blank" rel="noopener noreferrer">Twitter</a>
       </div>
       {/*<div className="flex items-center my-3">*/}
@@ -68,7 +68,7 @@ const Sidebar = ({ }) => (
       {/*  <a href="#" target="_blank" rel="noopener noreferrer">CodePen</a>*/}
       {/*</div>*/}
       <div className="flex items-center my-3">
-        <img src={globe} className="inline w-6 mr-4" alt="Globe icon"/>
+        <img src={globe} className="inline w-6 mr-4" alt="Globe icon" />
         <a href="/playground/" target="_blank" rel="noopener noreferrer">Playground</a>
       </div>
     </div>
@@ -91,24 +91,24 @@ const Sidebar = ({ }) => (
         <li>
           <div className="mt-2 text-xl font-semibold">Frameworks</div>
           <p className="leading-8">
-            <span className="rounded-xl bg-green-500 px-3">Wordpress</span>
-            <span className="rounded-xl bg-yellow-300 px-3">Symfony</span>
-            <span className="rounded-xl bg-yellow-300 px-3">Django</span><br/>
-            <span className="rounded-xl bg-blue-300 px-3">FastApi</span>
-            <span className="rounded-xl bg-blue-300 px-3">Vue</span>
-            <span className="rounded-xl bg-blue-300 px-3">React</span><br/>
-            <span className="rounded-xl bg-red-400 px-3">React Native</span>
+            <span className="rounded-xl bg-gray-300 px-3">Wordpress</span>
+            <span className="rounded-xl bg-gray-300 px-3">Symfony</span>
+            <span className="rounded-xl bg-gray-300 px-3">Django</span><br />
+            <span className="rounded-xl bg-gray-300 px-3">FastApi</span>
+            <span className="rounded-xl bg-gray-300 px-3">Vue</span>
+            <span className="rounded-xl bg-gray-300 px-3">React</span><br />
+            <span className="rounded-xl bg-gray-300 px-3">React Native</span>
 
           </p>
         </li>
         <li>
           <div className="mt-4 text-xl font-semibold">Infrastructure / Hosting / DB</div>
           <p className="leading-8">
-            <span className="rounded-xl bg-blue-300 px-3">Mysql</span>
-            <span className="rounded-xl bg-gray-300 px-3">Google Cloud Platform </span> <br/>
-            <span className="rounded-xl bg-green-500 px-3">Heroku</span>
-            <span className="rounded-xl bg-yellow-300 px-3">Netlify</span>
-            <span className="rounded-xl bg-red-400 px-3">Vercel</span>
+            <span className="rounded-xl bg-gray-300 px-3">Mysql</span>
+            <span className="rounded-xl bg-gray-300 px-3">Google Cloud Platform </span> <br />
+            <span className="rounded-xl bg-gray-300 px-3">Heroku</span>
+            <span className="rounded-xl bg-gray-300 px-3">Netlify</span>
+            <span className="rounded-xl bg-gray-300 px-3">Vercel</span>
 
           </p>
         </li>

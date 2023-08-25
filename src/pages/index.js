@@ -10,34 +10,31 @@ const IndexPage = () => (
     <div className="content w-full p-12">
       <div id="profile" className="prose">
         <h2 className="section-headline">Profile</h2>
-        <p>As a highly skilled and qualified software developer, I bring over 8 years of experience in web development, mobile app development, and data processing. My proven track record of delivering high-quality solutions in these areas is a testament to my technical expertise and ability to solve complex problems. 
-</p>
+        <p>As a highly skilled and qualified software developer, I bring over 8 years of experience in web development, mobile app development, and data processing. My proven track record of delivering high-quality solutions in these areas is a testament to my technical expertise and ability to solve complex problems.
+        </p>
       </div>
-      <hr className="mt-8 mb-12"/>
+      <hr className="mt-8 mb-12" />
       <div id="experience" className="prose">
         <h2 className="section-headline">Experience</h2>
         <div>
           <h3>Tix Co</h3>
           <section className="mb-3">
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              Jul 2022 - Jan 2023
+              Oct 2017 - Jan 2023
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
-              Technical Lead
+              Senior Fullstack Developer
             </div>
           </section>
           <section className="mb-6">
-        
+
             <div className="lg:inline-block lg:w-12/12 w-full">
               <ul role="list">
                 <li>
-                  Designed, developed, tested, deployed, maintained and improved high-quality software solutions, ensuring optimal performance and functionality.
+                  Built integrations between TIX CMS and third-party systems, streamlining workflows and improving efficiency.
                 </li>
                 <li>
-                  Conducted research to define project specifications and authored technical requirements to guide sprint planning.
-                </li>
-                <li>
-                  Prioritized individual project timelines and deliverables to ensure timely completion of tasks and successful project outcomes.
+                  Designed and developed a mobile app and API platform service, expanding TIX's reach and accessibility.
                 </li>
                 <li>
                   Generated valuable business insights by building and processing reports using BQ.
@@ -55,8 +52,8 @@ const IndexPage = () => (
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               <span className="rounded-xl bg-gray-300 px-3">Agile Methodologies</span>
-              <span className="rounded-xl bg-gray-300 px-3">Scrum</span><br/>
-              <span className="rounded-xl bg-gray-300 px-3">Google Cloud Platform (GCP)</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">Scrum</span><br />
+              <span className="rounded-xl bg-gray-300 px-3">Google Cloud Platform (GCP)</span><br />
               <span className="rounded-xl bg-gray-300 px-3">Salesforce Marketing Cloud (SFMC)</span>
               <span className="rounded-xl bg-gray-300 px-3">JIRA</span>
             </div>
@@ -66,30 +63,24 @@ const IndexPage = () => (
           <h3>Tix Co</h3>
           <section className="mb-3">
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-              Apr 2014 - Jul 2022
+              Apr 2014 - Oct 2017
             </div>
             <div className="lg:inline-block lg:w-8/12 w-full">
               Full Stack Developer
             </div>
           </section>
           <section className="mb-6">
-   
+
             <div className="lg:inline-block lg:w-12/12 w-full">
-            <ul role="list">
+              <ul role="list">
                 <li>
-                Developed and maintained a custom CMS system tailored to TIX's unique needs, ensuring robust functionality and optimal user experience.
+                  Developed and maintained a custom CMS system tailored to TIX's unique needs, ensuring robust functionality and optimal user experience.
                 </li>
                 <li>
-                Built integrations between TIX CMS and third-party systems, streamlining workflows and improving efficiency.
+                  Created a custom calendar tool to manage EDM newsletter schedules, improving organizational efficiency.
                 </li>
                 <li>
-                Designed and developed a mobile app and API platform service, expanding TIX's reach and accessibility.
-                </li>
-                <li>
-                Created a custom calendar tool to manage EDM newsletter schedules, improving organizational efficiency.
-                </li>
-                <li>
-                Developed a newsgen builder to customize EDM designs, delivering tailored content and enhancing engagement.
+                  Developed a newsgen builder to customize EDM designs, delivering tailored content and enhancing engagement.
                 </li>
               </ul>
             </div>
@@ -104,15 +95,15 @@ const IndexPage = () => (
               <span className="rounded-xl bg-gray-300 px-3">MySQL</span>
               <span className="rounded-xl bg-gray-300 px-3">Git</span>
               <span className="rounded-xl bg-gray-300 px-3">Python</span>
-              <span className="rounded-xl bg-gray-300 px-3">Django</span><br/>
-              <span className="rounded-xl bg-gray-300 px-3">LESS (Css Language)</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">Django</span><br />
+              <span className="rounded-xl bg-gray-300 px-3">LESS (Css Language)</span><br />
               <span className="rounded-xl bg-gray-300 px-3">Bulma (CSS Framework)</span>
-              <span className="rounded-xl bg-gray-300 px-3">Tailwind CSS</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">Tailwind CSS</span><br />
               <span className="rounded-xl bg-gray-300 px-3">ApiPlatform</span>
               <span className="rounded-xl bg-gray-300 px-3">FastAPI</span>
-              <span className="rounded-xl bg-gray-300 px-3">Doctrine (PHP)</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">Doctrine (PHP)</span><br />
               <span className="rounded-xl bg-gray-300 px-3">Symfony Framework</span>
-              <span className="rounded-xl bg-gray-300 px-3">React Native</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">React Native</span><br />
 
             </div>
           </section>
@@ -126,16 +117,16 @@ const IndexPage = () => (
             </div>
           </section>
           <section className="mb-6">
-          <div className="lg:inline-block lg:w-12/12 w-full">
+            <div className="lg:inline-block lg:w-12/12 w-full">
 
-            <ul role="list">
+              <ul role="list">
                 <li>
-                Designed and developed custom Wordpress themes for multiple clients, ensuring high-quality design and functionality.
+                  Designed and developed custom Wordpress themes for multiple clients, ensuring high-quality design and functionality.
                 </li>
                 <li>
-                Built custom plugins to implement advanced functionality and enhance user experience.                </li>
+                  Built custom plugins to implement advanced functionality and enhance user experience.                </li>
                 <li>
-                Created a custom mail client for a community, streamlining communication processes and improving user engagement.                </li>
+                  Created a custom mail client for a community, streamlining communication processes and improving user engagement.                </li>
               </ul>
             </div>
           </section>
@@ -149,13 +140,13 @@ const IndexPage = () => (
               <span className="rounded-xl bg-gray-300 px-3">Wordpress</span>
               <span className="rounded-xl bg-gray-300 px-3">CSS</span>
               <span className="rounded-xl bg-gray-300 px-3">Python</span>
-              <span className="rounded-xl bg-gray-300 px-3">Django</span><br/>
+              <span className="rounded-xl bg-gray-300 px-3">Django</span><br />
               <span className="rounded-xl bg-gray-300 px-3">Git</span>
               <span className="rounded-xl bg-gray-300 px-3">Bitbucket</span>
             </div>
           </section>
         </div>
-        <hr className="mt-8 mb-12"/>
+        <hr className="mt-8 mb-12" />
         <div>
           <h3>CV. Mertabali</h3>
           <section className="mb-3">
@@ -165,13 +156,13 @@ const IndexPage = () => (
             </div>
           </section>
           <section className="mb-6">
-          <div className="lg:inline-block lg:w-12/12 w-full">
+            <div className="lg:inline-block lg:w-12/12 w-full">
 
-            <ul role="list">
+              <ul role="list">
                 <li>
-                Developed and maintained the company's system using WebERP, ensuring optimal performance and functionality.
+                  Developed and maintained the company's system using WebERP, ensuring optimal performance and functionality.
                 </li>
-                </ul>
+              </ul>
             </div>
           </section>
 
