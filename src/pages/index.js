@@ -17,6 +17,45 @@ const IndexPage = () => (
       <div id="experience" className="prose">
         <h2 className="section-headline">Experience</h2>
         <div>
+          <h3>VAFE - ROCKET LAB  (Remote)</h3>
+          <section className="mb-3">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              May 2023 - Present
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              Senior Fullstack Developer
+            </div>
+          </section>
+          <section className="mb-6">
+
+            <div className="lg:inline-block lg:w-12/12 w-full">
+              <ul role="list">
+                <li>
+                  Continuously maintaining and enhancing the existing legacy codebase of the Custom CMS.
+                </li>
+                <li>
+                  Providing support for the development process by contributing to the implementation of new features and enhancements to legacy code.
+                </li>
+                <li>
+                  Integrating disparate code repositories into a unified repository to facilitate streamlined management and ease of maintenance in the long term
+                </li>
+              </ul>
+
+            </div>
+          </section>
+          <section className="mb-6">
+            <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+              Skills:
+            </div>
+            <div className="lg:inline-block lg:w-8/12 w-full">
+              <span className="rounded-xl bg-gray-300 px-3">Docker</span>
+              <span className="rounded-xl bg-gray-300 px-3">Vanilla PHP</span><br />
+              <span className="rounded-xl bg-gray-300 px-3">Boost CMS</span>
+              <span className="rounded-xl bg-gray-300 px-3">Clickup</span>
+            </div>
+          </section>
+        </div>
+        <div>
           <h3>Tix Co</h3>
           <section className="mb-3">
             <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
