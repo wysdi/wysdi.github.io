@@ -3,44 +3,68 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-.section-headline {
-    @apply font-bold sm:text-xl uppercase tracking-widest border-gray-300 border-l-8 pl-2;
+@layer base {
+  html {
+    @apply font-mono text-primary bg-white;
+  }
+  
+  body {
+    @apply antialiased max-w-4xl mx-auto px-4 sm:px-6 md:px-8;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-mono font-bold tracking-tight mb-4;
+  }
+  
+  h1 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h2 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h3 {
+    @apply text-xl md:text-2xl;
+  }
+  
+  p {
+    @apply mb-6 leading-relaxed;
+  }
+  
+  a {
+    @apply text-accent hover:underline transition-colors duration-200;
+  }
 }
 
+@layer components {
+  .section-headline {
+    @apply font-bold text-lg uppercase tracking-wider border-l-4 border-accent pl-3 mb-6;
+  }
+  
+  .btn {
+    @apply inline-block px-5 py-2 rounded-sm bg-accent text-white font-medium hover:bg-opacity-90 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-opacity-50;
+  }
+  
+  .btn-outline {
+    @apply inline-block px-5 py-2 rounded-sm border border-accent text-accent font-medium hover:bg-accent hover:text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-opacity-50;
+  }
+  
+  .card {
+    @apply bg-white shadow-sm rounded-sm p-6 mb-6 transition-shadow duration-200 hover:shadow border border-gray-100;
+  }
+}
+
+/* Progress bar styling */
 progress {
-    margin-top: 0.5rem;
-    width: 100%;
-    height: 10px;
-    margin-bottom: 0.4rem;
+  @apply w-full h-2 mt-2 mb-1;
+  border-radius: 4px;
 }
 
 progress::-webkit-progress-bar {
-    border-radius: 10px;
-    background-color: #d1d5db;
-    box-shadow: 0 2px 6px #555;
+  @apply rounded-sm bg-gray-200;
 }
 
 progress::-webkit-progress-value {
-    border-radius: 10px 0 0 10px;
-    background-image: linear-gradient(36deg, #333,#f7f7f7);
+  @apply rounded-sm bg-accent;
 }
-
-.section-headline {
-    color: #333 !important;
-}
-
-/*#chrisko-headline::before {*/
-/*    display: inline-block;*/
-/*    height: 30px;*/
-/*    width: 30px;*/
-/*    position: relative;*/
-/*    bottom: -8px;*/
-/*    content: "";*/
-/*    background-image: url("./assets/chrisko-icon.png");*/
-/*    background-position: center;*/
-/*    background-size: contain;*/
-/*    margin-right: 12px;*/
-/*    border-radius: 50%;*/
-/*}*/

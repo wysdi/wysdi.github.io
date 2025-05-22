@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `wysdi.github.io`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Wayan Sudiarta`,
+    description: `Software Engineer portfolio showcasing skills, experience, and projects.`,
+    author: `@wysdi`,
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -19,11 +19,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `wayan-sudiarta-portfolio`,
+        short_name: `portfolio`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#2D3748`,
+        theme_color: `#4299E1`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
@@ -45,8 +45,7 @@ module.exports = {
         display: "swap",
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    // Enable offline functionality
+    `gatsby-plugin-offline`,
   ],
 };

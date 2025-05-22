@@ -10,8 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Sidebar from "./sidebar"
-import avatar from "../images/avatar.jpeg"
-
+import "../styles/global.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,30 +24,21 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container mx-auto max-w-screen-xl">
-        <main id="wrapper" className="flex flex-col sm:flex-row sm:m-12 shadow-2xl">
-          <Sidebar />
-          {children}
-          </main>
-        <footer className="mt-12 text-center flex justify-center flex-col md:flex-row mx-12">
-          {/*<a href="https://chrisko.io/"*/}
-          {/*   className="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0">Made with ❤️*/}
-          {/*  by Chrisko</a>*/}
-          {/*<a href="https://tailwindcss.com/"*/}
-          {/*   className="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0">TailwindCSS</a>*/}
-          {/*<a href="https://vitejs.dev/"*/}
-          {/*   className="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0">Vite</a>*/}
-          {/*<a href="https://github.com/L33T-KR3W/push-dir"*/}
-          {/*   className="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0">Push Dir</a>*/}
-          {/*<a href="https://ionicons.com/"*/}
-          {/*   className="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0">Ionicons</a>*/}
-          {/*<a*/}
-          {/*  href="https://unsplash.com/@jackofallstreets?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"*/}
-          {/*  className="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0">*/}
-          {/*  Photo by Jack Finnigan*/}
-          {/*</a>*/}
-        </footer>
-      </div>
+    <div className="min-h-screen flex flex-col bg-white">
+      <main className="flex-grow">
+        <div className="max-w-5xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col lg:flex-row gap-8">
+            <Sidebar />
+            <div className="flex-grow bg-white">{children}</div>
+          </div>
+        </div>
+      </main>
+      <footer className="py-6 border-t border-gray-100">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500">
+          <p>© {new Date().getFullYear()} · Built with Gatsby</p>
+        </div>
+      </footer>
+    </div>
   )
 }
 
