@@ -1,27 +1,29 @@
 /* ./src/styles/global.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   html {
-    @apply font-mono text-primary bg-white;
+    @apply font-sans text-primary bg-background scroll-smooth;
   }
   
   body {
-    @apply antialiased max-w-4xl mx-auto px-4 sm:px-6 md:px-8;
+    @apply antialiased;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-mono font-bold tracking-tight mb-4;
+    @apply font-sans font-bold tracking-tight mb-4 text-primary;
   }
   
   h1 {
-    @apply text-3xl md:text-4xl;
+    @apply text-4xl md:text-5xl lg:text-6xl;
   }
   
   h2 {
-    @apply text-2xl md:text-3xl;
+    @apply text-2xl md:text-3xl lg:text-4xl;
   }
   
   h3 {
@@ -29,42 +31,81 @@
   }
   
   p {
-    @apply mb-6 leading-relaxed;
+    @apply mb-6 leading-relaxed text-secondary;
   }
   
   a {
-    @apply text-accent hover:underline transition-colors duration-200;
+    @apply text-accent hover:text-accent-hover transition-all duration-200;
+  }
+  
+  ::selection {
+    @apply bg-accent text-white;
   }
 }
 
 @layer components {
   .section-headline {
-    @apply font-bold text-lg uppercase tracking-wider border-l-4 border-accent pl-3 mb-6;
+    @apply font-bold text-base md:text-lg uppercase tracking-widest text-muted mb-8 flex items-center gap-3;
+  }
+  
+  .section-headline::before {
+    content: '';
+    @apply w-10 h-0.5 bg-gradient-to-r from-accent to-accent-hover rounded-full;
   }
   
   .btn {
-    @apply inline-block px-5 py-2 rounded-sm bg-accent text-white font-medium hover:bg-opacity-90 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-opacity-50;
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-accent to-accent-hover text-white font-semibold shadow-soft hover:shadow-medium hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2;
   }
   
   .btn-outline {
-    @apply inline-block px-5 py-2 rounded-sm border border-accent text-accent font-medium hover:bg-accent hover:text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-opacity-50;
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-accent text-accent font-semibold hover:bg-accent hover:text-white hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2;
   }
   
   .card {
-    @apply bg-white shadow-sm rounded-sm p-6 mb-6 transition-shadow duration-200 hover:shadow border border-gray-100;
+    @apply bg-white rounded-2xl p-6 md:p-8 mb-6 transition-all duration-300 hover:shadow-medium hover:-translate-y-1 border border-border;
+  }
+  
+  .card-modern {
+    @apply bg-gradient-to-br from-white to-background-secondary rounded-2xl p-6 md:p-8 transition-all duration-300 hover:shadow-glow hover:-translate-y-1 border border-border;
+  }
+  
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-accent/10 text-accent;
   }
 }
 
-/* Progress bar styling */
+/* Modern progress bar styling */
 progress {
-  @apply w-full h-2 mt-2 mb-1;
-  border-radius: 4px;
+  @apply w-full h-3 mt-3 mb-2 rounded-full overflow-hidden;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 progress::-webkit-progress-bar {
-  @apply rounded-sm bg-gray-200;
+  @apply rounded-full bg-background-secondary;
 }
 
 progress::-webkit-progress-value {
-  @apply rounded-sm bg-accent;
+  @apply rounded-full bg-gradient-to-r from-accent to-accent-hover transition-all duration-500;
+}
+
+progress::-moz-progress-bar {
+  @apply rounded-full bg-gradient-to-r from-accent to-accent-hover;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-secondary;
 }
