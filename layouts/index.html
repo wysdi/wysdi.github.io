@@ -1,0 +1,97 @@
+{{ define "main" }}
+<div class="space-y-16 animate-fade-in">
+  <!-- Profile Section -->
+  <section class="card-modern">
+    <h2 class="section-headline">About Me</h2>
+    <div class="prose prose-sm sm:prose lg:prose-base">
+      <p class="text-lg leading-relaxed">
+        Software engineer with over <span class="font-semibold text-accent">8 years of experience</span> in web development, 
+        mobile applications, and data processing. I focus on creating clean, 
+        efficient, and maintainable solutions to complex problems.
+      </p>
+    </div>
+  </section>
+  
+  <!-- Experience Section -->
+  <section>
+    <h2 class="section-headline">Experience</h2>
+    
+    <div class="space-y-6">
+      <!-- OFLOAD -->
+      <div class="card group">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3 gap-2">
+          <h3 class="font-bold text-xl text-primary group-hover:text-accent transition-colors">OFLOAD</h3>
+          <span class="badge">Remote</span>
+        </div>
+        <p class="text-sm font-semibold text-accent mb-2">Software Engineer</p>
+        <p class="text-sm text-muted mb-4">Jan 2024 - Present</p>
+        <ul class="list-disc pl-5 text-sm space-y-2 text-secondary">
+          <li>Developing scalable systems and technical solutions for logistics operations</li>
+          <li>Implementing Domain-Driven Design principles and design patterns</li>
+          <li>Managing and optimizing services using Docker, Laravel, React, and Kubernetes</li>
+          <li>Collaborating with cross-functional teams to deliver high-quality software</li>
+        </ul>
+      </div>
+      
+      <!-- VAFE - ROCKET LAB -->
+      <div class="card group">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3 gap-2">
+          <h3 class="font-bold text-xl text-primary group-hover:text-accent transition-colors">VAFE - ROCKET LAB</h3>
+          <span class="badge">Remote</span>
+        </div>
+        <p class="text-sm font-semibold text-accent mb-2">Software Engineer</p>
+        <p class="text-sm text-muted mb-4">May 2023 - Jan 2024</p>
+        <ul class="list-disc pl-5 text-sm space-y-2 text-secondary">
+          <li>Continuously maintaining and enhancing the existing legacy codebase of the Custom CMS.</li>
+          <li>Providing support for the development process by contributing to the implementation of new features and enhancements to legacy code.</li>
+          <li>Integrating disparate code repositories into a unified repository to facilitate streamlined management and ease of maintenance in the long term</li>
+        </ul>
+      </div>
+      
+      <!-- TIX Co -->
+      <div class="card group">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3 gap-2">
+          <h3 class="font-bold text-xl text-primary group-hover:text-accent transition-colors">TIX Co</h3>
+          <span class="badge">Remote</span>
+        </div>
+        <p class="text-sm font-semibold text-accent mb-2">Senior Fullstack Developer</p>
+        <p class="text-sm text-muted mb-4">Apr 2014 - Jan 2023</p>
+        <ul class="list-disc pl-5 text-sm space-y-2 text-secondary">
+          <li>Developed and maintained a custom CMS system tailored to TIX's unique needs</li>
+          <li>Built integrations between TIX CMS and third-party systems</li>
+          <li>Designed and developed mobile apps using React Native</li>
+          <li>Created API platform services using Symfony and FastAPI</li>
+          <li>Implemented scraping tools using Python</li>
+        </ul>
+      </div>
+      
+      <!-- Egomedia Bali -->
+      <div class="card group">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-3 gap-2">
+          <h3 class="font-bold text-xl text-primary group-hover:text-accent transition-colors">Egomedia Bali</h3>
+          <span class="badge">Bali, Indonesia</span>
+        </div>
+        <p class="text-sm font-semibold text-accent mb-2">Web Developer</p>
+        <p class="text-sm text-muted mb-4">Sep 2011 - Apr 2014</p>
+        <ul class="list-disc pl-5 text-sm space-y-2 text-secondary">
+          <li>Developed websites using custom themes in WordPress</li>
+          <li>Built custom plugins for advanced features in WordPress</li>
+          <li>Implemented responsive designs and user interfaces</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section class="card-modern text-center py-12">
+    <h2 class="section-headline justify-center">Get In Touch</h2>
+    <p class="mb-8 text-lg text-secondary max-w-md mx-auto">Interested in working together? Feel free to reach out.</p>
+    <a href="mailto:{{ .Site.Params.email }}" class="btn">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+      Contact Me
+    </a>
+  </section>
+</div>
+{{ end }}

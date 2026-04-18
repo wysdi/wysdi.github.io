@@ -1,0 +1,18 @@
+<header class="py-6 border-b border-border">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav class="flex justify-between items-center">
+      <a href="/" class="text-xl font-bold text-primary hover:text-accent transition-colors">
+        {{ .Site.Title }}
+      </a>
+      <ul class="flex space-x-6">
+        {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}" class="text-secondary hover:text-accent transition-colors font-medium">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>
