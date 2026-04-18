@@ -1,31 +1,27 @@
 ```
+# Build artifacts
+public/
+resources/_gen/
+.hugo_build.lock
+
 # Dependencies
 node_modules/
-
-# Build artifacts
-dist/
-build/
-*.css.map
+package-lock.json
 
 # Environment
 .env
 .env.local
 *.env.*
 
+# Logs and temp files
+*.log
+*.tmp
+
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Temporary files
-*.tmp
+# OS generated files
+.DS_Store
+Thumbs.db
 ```

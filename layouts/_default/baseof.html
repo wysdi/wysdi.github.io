@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  {{ $styles := resources.Get "css/main.css" | postCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+</head>
+<body class="min-h-screen flex flex-col bg-gradient-to-br from-background via-background-secondary to-background">
+  <!-- Background decoration -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute -top-40 -right-40 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
+    <div class="absolute top-1/2 -left-40 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
+  </div>
+  
+  <div class="relative z-10 flex-grow">
+    {{ partial "header.html" . }}
+    
+    <main class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col lg:flex-row gap-12">
+        {{ partial "sidebar.html" . }}
+        <div class="flex-grow">
+          {{ block "main" . }}{{ end }}
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <footer class="py-8 border-t border-border relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-muted">
+      <p>© {{ now.Year }} · Built with Hugo & Tailwind CSS</p>
+    </div>
+  </footer>
+</body>
+</html>

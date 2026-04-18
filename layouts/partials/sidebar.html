@@ -1,0 +1,108 @@
+<aside class="w-full lg:w-80 mb-12 lg:mb-0">
+  <div class="sticky top-8 space-y-8">
+    <!-- Profile -->
+    <div class="text-center lg:text-left card-modern">
+      <h1 class="text-3xl font-extrabold mb-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">{{ .Site.Title }}</h1>
+      <p class="text-accent font-medium text-lg">Software Engineer</p>
+    </div>
+    
+    <!-- Social Links -->
+    <div class="card-modern">
+      <h2 class="section-headline">Connect</h2>
+      <ul class="space-y-4">
+        <li class="flex items-center group">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-accent/10 to-accent/5 flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-200">
+            <svg class="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-1.334-.433-.173-.766-.71-.766-.71-.628-.857.016-.795.016-.795.694.049 1.057.714 1.057.714.617 1.056 1.616.752 2.008.573.063-.446.241-.752.438-.923-1.942-.221-3.979-.971-3.979-.971-.214-.053-.433-.214-.433-.214-.353-.268-.353-.268-.353-.268 1.556.109 2.685 1.596 2.685 1.596.784 1.342 2.063.955 2.567.73.08-.575.306-.955.556-1.171-1.943-.221-3.98-.972-3.98-.972-.215-.053-.434-.215-.434-.215-.353-.268-.353-.268-.353-.268 1.556.109 2.685 1.596 2.685 1.596.784 1.342 2.063.955 2.567.73.08-.575.306-.955.556-1.171z"/>
+            </svg>
+          </div>
+          <a href="https://github.com/{{ .Site.Params.social.github }}" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium group-hover:text-accent transition-colors">GitHub</a>
+        </li>
+        <li class="flex items-center group">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-accent/10 to-accent/5 flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-200">
+            <svg class="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </div>
+          <a href="https://www.linkedin.com/in/{{ .Site.Params.social.linkedin }}/" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium group-hover:text-accent transition-colors">LinkedIn</a>
+        </li>
+        <li class="flex items-center group">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-accent/10 to-accent/5 flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-200">
+            <svg class="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+            </svg>
+          </div>
+          <a href="https://twitter.com/{{ .Site.Params.social.twitter }}" target="_blank" rel="noopener noreferrer" class="text-secondary font-medium group-hover:text-accent transition-colors">Twitter</a>
+        </li>
+        <li class="flex items-center group">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-accent/10 to-accent/5 flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-200">
+            <svg class="w-5 h-5 opacity-70 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+            </svg>
+          </div>
+          <a href="/playground/" class="text-secondary font-medium group-hover:text-accent transition-colors">Playground</a>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Skills -->
+    <div class="card-modern">
+      <h2 class="section-headline">Skills</h2>
+      <div class="space-y-4">
+        <div>
+          <div class="flex justify-between text-sm font-medium">
+            <span class="text-secondary">PHP</span>
+            <span class="text-accent">90%</span>
+          </div>
+          <progress max="100" value="90"></progress>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm font-medium">
+            <span class="text-secondary">JavaScript</span>
+            <span class="text-accent">80%</span>
+          </div>
+          <progress max="100" value="80"></progress>
+        </div>
+        <div>
+          <div class="flex justify-between text-sm font-medium">
+            <span class="text-secondary">Python</span>
+            <span class="text-accent">70%</span>
+          </div>
+          <progress max="100" value="70"></progress>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Technologies -->
+    <div class="card-modern">
+      <h2 class="section-headline">Technologies</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="text-sm font-semibold text-primary mb-2">Frameworks</h3>
+          <div class="flex flex-wrap gap-2">
+            {{ range slice "Symfony" "Django" "React" "Vue" "FastAPI" }}
+            <span class="badge">{{ . }}</span>
+            {{ end }}
+          </div>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold text-primary mb-2">Tools</h3>
+          <div class="flex flex-wrap gap-2">
+            {{ range slice "Docker" "Kubernetes" "Git" "AWS" "GCP" }}
+            <span class="badge">{{ . }}</span>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Education -->
+    <div class="card-modern">
+      <h2 class="section-headline">Education</h2>
+      <div>
+        <h3 class="text-sm font-semibold text-primary">Bachelor Degree (S.Kom)</h3>
+        <p class="text-xs text-muted mt-1">2006 - 2009 · Stikom Bali</p>
+      </div>
+    </div>
+  </div>
+</aside>
