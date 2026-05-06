@@ -1,19 +1,22 @@
 {
-  "name": "hugo-portfolio",
-  "version": "1.0.0",
-  "description": "Wayan Sudiarta Portfolio - Built with Hugo & Tailwind CSS",
-  "author": "Wayan Sudiarta",
-  "license": "MIT",
+  "name": "astro-portfolio",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "build:css": "postcss assets/css/main.css -o static/css/style.css --env production",
-    "watch:css": "postcss assets/css/main.css -o static/css/style.css --env development --watch",
-    "build": "npm run build:css && hugo --minify",
-    "server": "hugo server -D"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.0.0",
+    "astro": "^4.0.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.0",
-    "postcss-cli": "^9.0.0",
+    "@tailwindcss/typography": "^0.5.19",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0",
     "tailwindcss": "^3.0.0"
   }
 }

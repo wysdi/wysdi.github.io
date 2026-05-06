@@ -1,0 +1,55 @@
+---
+import { siteConfig } from '../config/site';
+import '../styles/main.css';
+import Header from '../components/Header.astro';
+import Sidebar from '../components/Sidebar.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang={siteConfig.languageCode}>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title ? `${title} | ${siteConfig.title}` : siteConfig.title}</title>
+  <meta name="description" content={description || siteConfig.description}>
+  <meta name="author" content={siteConfig.author}>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen flex flex-col bg-gradient-to-br from-background via-background-secondary to-background">
+  <!-- Background decoration -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute -top-40 -right-40 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
+    <div class="absolute top-1/2 -left-40 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
+  </div>
+  
+  <div class="relative z-10 flex-grow">
+    <Header />
+    
+    <main class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col lg:flex-row gap-12">
+        <Sidebar />
+        <div class="flex-grow">
+          <slot />
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <footer class="py-8 border-t border-border relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-muted">
+      <p>© {new Date().getFullYear()} · Built with Astro & Tailwind CSS</p>
+    </div>
+  </footer>
+</body>
+</html>
